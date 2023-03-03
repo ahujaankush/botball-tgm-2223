@@ -95,7 +95,6 @@ int main() {
       while (!((analog(LEFT_SENSOR) >= sensors.sensor_left_white + 200) &&
                (analog(RIGHT_SENSOR) >= sensors.sensor_right_white + 200)))
         ;
-
       fd(0);
       fd(1);
 

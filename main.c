@@ -90,11 +90,12 @@ int main() {
       freezeB();
 
       mav(0, 1500);
-      mav(1, 1300);
+      // mav(1, 1300);
 
       while (!((analog(LEFT_SENSOR) >= sensors.sensor_left_white + 200) &&
                (analog(RIGHT_SENSOR) >= sensors.sensor_right_white + 200)))
         ;
+
       fd(0);
       fd(1);
 
@@ -105,7 +106,7 @@ int main() {
     if (analog(RIGHT_SENSOR) < sensors.sensor_left_white + 200) {
       freezeB();
 
-      mav(0, 1300);
+      // mav(0,1300);
       mav(1, 1500);
 
       while (!((analog(LEFT_SENSOR) >= sensors.sensor_left_white + 200) &&

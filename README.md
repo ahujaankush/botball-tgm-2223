@@ -6,9 +6,9 @@
 
 The folder `_create` contains the code for the vacuum robot.
 
-### \_wallaby
+### \_wombat
 
-The folder `_wallaby` contains the code for the small robot.
+The folder `_wombat` contains the code for the small robot.
 
 ### libwallaby
 

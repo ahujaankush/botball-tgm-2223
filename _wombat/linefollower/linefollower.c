@@ -1,3 +1,4 @@
+#pragma once
 #include "../../libwallaby/include/kipr/wallaby.h"
 // #include <kipr/wallaby.h>
 #include "../share.h"
@@ -19,11 +20,19 @@ void freezeBoth() {
 }
 
 /**
- * @brief All gas no brakes, full poewr drive
+ * @brief All gas no brakes, full power drive
  */
 void agnb() {
   fd(LEFT_MOTOR);  // LEFT
   fd(RIGHT_MOTOR); // RIGHT
+}
+
+/**
+ * @brief All gas no brakes, full power drive but backwards
+ */
+void agnbb() {
+  bk(LEFT_MOTOR);  // LEFT
+  bk(RIGHT_MOTOR); // RIGHT
 }
 
 /**

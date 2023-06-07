@@ -9,14 +9,14 @@ main.c gibt bei beiden die Route an, dabei wird der Linefollower mit einem Struc
 
 Projektstruktur:
 
-├───botball-tgm-2223
-│   ├───libwallaby
-│   ├───_create
-│   │   ├───arm
-│   │   └───linefollower
-│   └───_wombat
-│       ├───arm
-│      └───linefollower
+├───botball-tgm-2223<br>
+│   ├───libwallaby<br>
+│   ├───_create<br>
+│   │   ├───arm<br>
+│   │   └───linefollower<br>
+│   └───_wombat<br>
+│       ├───arm<br>
+│      └───linefollower<br>
 
 _ create ist  für den create Roboter, _ wombat ist für den wombat Roboter. arm ist für die Konstanten und Methoden um die Arme zu steuern und linefollower ist eine Roboter spezifische Implementierung von einem Linefollower. Der libwallaby Folder ist da um die offiziele Libwallaby Library anzubinden. 
 
